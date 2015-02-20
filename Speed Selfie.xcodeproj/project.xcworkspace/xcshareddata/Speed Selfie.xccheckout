@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>118BD354-F393-49B8-8A07-ED27DE2DBAD5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Speed Selfie</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7872ECFBDA0F46BAB3982FE65D27A5DE913F59FA</key>
+		<string>https://bitbucket.org/patel-rohan/speed-selfie.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Speed Selfie/Speed Selfie.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7872ECFBDA0F46BAB3982FE65D27A5DE913F59FA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/patel-rohan/speed-selfie.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7872ECFBDA0F46BAB3982FE65D27A5DE913F59FA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7872ECFBDA0F46BAB3982FE65D27A5DE913F59FA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Speed%20Selfie</string>
+		</dict>
+	</array>
+</dict>
+</plist>

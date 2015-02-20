@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1033311A87226800DE7427 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1033301A87226800DE7427 /* CameraViewController.swift */; };
+		4A1033361A87250E00DE7427 /* UIImage+Filters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1033351A87250E00DE7427 /* UIImage+Filters.m */; };
+		4A1B34851A8597030094A7A1 /* delete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A1B34841A8597030094A7A1 /* delete.jpg */; };
+		4A1B34881A85B8320094A7A1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1B34861A85B8320094A7A1 /* AddressBook.framework */; };
+		4A1B34891A85B8320094A7A1 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1B34871A85B8320094A7A1 /* AddressBookUI.framework */; };
+		4A1B348C1A85D3D40094A7A1 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B348B1A85D3D40094A7A1 /* Singleton.swift */; };
+		4A2422011A87513600CDFFCD /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2421F31A87513600CDFFCD /* 0.jpg */; };
+		4A2422021A87513600CDFFCD /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2421F41A87513600CDFFCD /* 1.jpg */; };
+		4A2422031A87513600CDFFCD /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2421F51A87513600CDFFCD /* 2.jpg */; };
+		4A2422041A87513600CDFFCD /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2421F61A87513600CDFFCD /* 3.jpg */; };
+		4A2422051A87513600CDFFCD /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2421F71A87513600CDFFCD /* 4.jpg */; };
+		4A2422061A87513600CDFFCD /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2421F81A87513600CDFFCD /* 5.jpg */; };
+		4A2422071A87513600CDFFCD /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2421F91A87513600CDFFCD /* 6.jpg */; };
+		4A2422081A87513600CDFFCD /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2421FA1A87513600CDFFCD /* 8.jpg */; };
+		4A2422091A87513600CDFFCD /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2421FB1A87513600CDFFCD /* 9.jpg */; };
+		4A24220A1A87513600CDFFCD /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2421FC1A87513600CDFFCD /* 10.jpg */; };
+		4A24220B1A87513600CDFFCD /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2421FD1A87513600CDFFCD /* 11.jpg */; };
+		4A24220E1A87513600CDFFCD /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2422001A87513600CDFFCD /* 14.jpg */; };
+		4A2422101A87518B00CDFFCD /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A24220F1A87518B00CDFFCD /* 12.jpg */; };
+		4A2422121A87519500CDFFCD /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2422111A87519500CDFFCD /* 13.jpg */; };
+		4A2422141A87523800CDFFCD /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A2422131A87523800CDFFCD /* 7.jpg */; };
+		4A5CA62B1A8535F600127E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CA62A1A8535F600127E36 /* AppDelegate.swift */; };
+		4A5CA62E1A8535F600127E36 /* Speed_Selfie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CA62C1A8535F600127E36 /* Speed_Selfie.xcdatamodeld */; };
+		4A5CA6301A8535F600127E36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CA62F1A8535F600127E36 /* ViewController.swift */; };
+		4A5CA6331A8535F600127E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5CA6311A8535F600127E36 /* Main.storyboard */; };
+		4A5CA6351A8535F600127E36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5CA6341A8535F600127E36 /* Images.xcassets */; };
+		4A5CA6381A8535F600127E36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5CA6361A8535F600127E36 /* LaunchScreen.xib */; };
+		4A5CA6441A8535F600127E36 /* Speed_SelfieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CA6431A8535F600127E36 /* Speed_SelfieTests.swift */; };
+		4A8C7D9C1A8859860093D5BC /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C7D9B1A8859860093D5BC /* RegistrationViewController.swift */; };
+		4A8C7D9F1A885C8E0093D5BC /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8C7D9E1A885C8E0093D5BC /* CloudKit.framework */; };
+		4A8C7DA11A885D8E0093D5BC /* IvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8C7DA01A885D8E0093D5BC /* IvViewController.swift */; };
+		4A8C7DA31A8871F10093D5BC /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A8C7DA21A8871F10093D5BC /* readme.txt */; };
+		4A9D386C1A86F49A005954D9 /* default-person.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A9D386B1A86F49A005954D9 /* default-person.jpg */; };
+		4A9D386E1A86F4AE005954D9 /* r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A9D386D1A86F4AE005954D9 /* r.jpg */; };
+		4A9D38721A86FADF005954D9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D38711A86FADF005954D9 /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A5CA63E1A8535F600127E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A5CA61D1A8535F600127E36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A5CA6241A8535F600127E36;
+			remoteInfo = "Speed Selfie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A1033301A87226800DE7427 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ../CameraViewController.swift; sourceTree = "<group>"; };
+		4A1033331A87250D00DE7427 /* Speed Selfie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Speed Selfie-Bridging-Header.h"; sourceTree = "<group>"; };
+		4A1033341A87250E00DE7427 /* UIImage+Filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Filters.h"; sourceTree = "<group>"; };
+		4A1033351A87250E00DE7427 /* UIImage+Filters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Filters.m"; sourceTree = "<group>"; };
+		4A1B34841A8597030094A7A1 /* delete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = delete.jpg; sourceTree = "<group>"; };
+		4A1B34861A85B8320094A7A1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		4A1B34871A85B8320094A7A1 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		4A1B348B1A85D3D40094A7A1 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		4A2421F31A87513600CDFFCD /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		4A2421F41A87513600CDFFCD /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		4A2421F51A87513600CDFFCD /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		4A2421F61A87513600CDFFCD /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		4A2421F71A87513600CDFFCD /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		4A2421F81A87513600CDFFCD /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		4A2421F91A87513600CDFFCD /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		4A2421FA1A87513600CDFFCD /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		4A2421FB1A87513600CDFFCD /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		4A2421FC1A87513600CDFFCD /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		4A2421FD1A87513600CDFFCD /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		4A2422001A87513600CDFFCD /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		4A24220F1A87518B00CDFFCD /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		4A2422111A87519500CDFFCD /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		4A2422131A87523800CDFFCD /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		4A5CA6251A8535F600127E36 /* Speed Selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speed Selfie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5CA6291A8535F600127E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5CA62A1A8535F600127E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A5CA62D1A8535F600127E36 /* Speed_Selfie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Speed_Selfie.xcdatamodel; sourceTree = "<group>"; };
+		4A5CA62F1A8535F600127E36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A5CA6321A8535F600127E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A5CA6341A8535F600127E36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A5CA6371A8535F600127E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4A5CA63D1A8535F600127E36 /* Speed SelfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speed SelfieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5CA6421A8535F600127E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5CA6431A8535F600127E36 /* Speed_SelfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speed_SelfieTests.swift; sourceTree = "<group>"; };
+		4A8C7D9B1A8859860093D5BC /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		4A8C7D9D1A885C8C0093D5BC /* Speed Selfie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Speed Selfie.entitlements"; sourceTree = "<group>"; };
+		4A8C7D9E1A885C8E0093D5BC /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		4A8C7DA01A885D8E0093D5BC /* IvViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IvViewController.swift; sourceTree = "<group>"; };
+		4A8C7DA21A8871F10093D5BC /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		4A9D386B1A86F49A005954D9 /* default-person.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "default-person.jpg"; sourceTree = "<group>"; };
+		4A9D386D1A86F4AE005954D9 /* r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = r.jpg; sourceTree = "<group>"; };
+		4A9D38711A86FADF005954D9 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5CA6221A8535F600127E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8C7D9F1A885C8E0093D5BC /* CloudKit.framework in Frameworks */,
+				4A1B34881A85B8320094A7A1 /* AddressBook.framework in Frameworks */,
+				4A1B34891A85B8320094A7A1 /* AddressBookUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5CA63A1A8535F600127E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1033321A87250000DE7427 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4A1033341A87250E00DE7427 /* UIImage+Filters.h */,
+				4A1033351A87250E00DE7427 /* UIImage+Filters.m */,
+				4A1033331A87250D00DE7427 /* Speed Selfie-Bridging-Header.h */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		4A1B34831A8596970094A7A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A2421F31A87513600CDFFCD /* 0.jpg */,
+				4A2421F41A87513600CDFFCD /* 1.jpg */,
+				4A2421F51A87513600CDFFCD /* 2.jpg */,
+				4A2421F61A87513600CDFFCD /* 3.jpg */,
+				4A2421F71A87513600CDFFCD /* 4.jpg */,
+				4A2421F81A87513600CDFFCD /* 5.jpg */,
+				4A2422111A87519500CDFFCD /* 13.jpg */,
+				4A2421F91A87513600CDFFCD /* 6.jpg */,
+				4A2422131A87523800CDFFCD /* 7.jpg */,
+				4A2421FA1A87513600CDFFCD /* 8.jpg */,
+				4A2421FB1A87513600CDFFCD /* 9.jpg */,
+				4A24220F1A87518B00CDFFCD /* 12.jpg */,
+				4A2421FC1A87513600CDFFCD /* 10.jpg */,
+				4A2421FD1A87513600CDFFCD /* 11.jpg */,
+				4A2422001A87513600CDFFCD /* 14.jpg */,
+				4A1B34841A8597030094A7A1 /* delete.jpg */,
+				4A9D386B1A86F49A005954D9 /* default-person.jpg */,
+				4A9D386D1A86F4AE005954D9 /* r.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4A1B348A1A85B84B0094A7A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A8C7D9E1A885C8E0093D5BC /* CloudKit.framework */,
+				4A1B34861A85B8320094A7A1 /* AddressBook.framework */,
+				4A1B34871A85B8320094A7A1 /* AddressBookUI.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4A5CA61C1A8535F600127E36 = {
+			isa = PBXGroup;
+			children = (
+				4A8C7DA21A8871F10093D5BC /* readme.txt */,
+				4A5CA6271A8535F600127E36 /* Speed Selfie */,
+				4A5CA6401A8535F600127E36 /* Speed SelfieTests */,
+				4A5CA6261A8535F600127E36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A5CA6261A8535F600127E36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A5CA6251A8535F600127E36 /* Speed Selfie.app */,
+				4A5CA63D1A8535F600127E36 /* Speed SelfieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A5CA6271A8535F600127E36 /* Speed Selfie */ = {
+			isa = PBXGroup;
+			children = (
+				4A8C7D9D1A885C8C0093D5BC /* Speed Selfie.entitlements */,
+				4A1B348B1A85D3D40094A7A1 /* Singleton.swift */,
+				4A5CA62A1A8535F600127E36 /* AppDelegate.swift */,
+				4A5CA62F1A8535F600127E36 /* ViewController.swift */,
+				4A1033301A87226800DE7427 /* CameraViewController.swift */,
+				4A8C7D9B1A8859860093D5BC /* RegistrationViewController.swift */,
+				4A5CA6311A8535F600127E36 /* Main.storyboard */,
+				4A8C7DA01A885D8E0093D5BC /* IvViewController.swift */,
+				4A5CA6341A8535F600127E36 /* Images.xcassets */,
+				4A5CA6361A8535F600127E36 /* LaunchScreen.xib */,
+				4A1033321A87250000DE7427 /* Library */,
+				4AC4AD451A869E7600226CA8 /* Model */,
+				4A1B34831A8596970094A7A1 /* Resources */,
+				4A5CA6281A8535F600127E36 /* Supporting Files */,
+				4A1B348A1A85B84B0094A7A1 /* Frameworks */,
+			);
+			path = "Speed Selfie";
+			sourceTree = "<group>";
+		};
+		4A5CA6281A8535F600127E36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A5CA6291A8535F600127E36 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A5CA6401A8535F600127E36 /* Speed SelfieTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A5CA6431A8535F600127E36 /* Speed_SelfieTests.swift */,
+				4A5CA6411A8535F600127E36 /* Supporting Files */,
+			);
+			path = "Speed SelfieTests";
+			sourceTree = "<group>";
+		};
+		4A5CA6411A8535F600127E36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A5CA6421A8535F600127E36 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AC4AD451A869E7600226CA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A5CA62C1A8535F600127E36 /* Speed_Selfie.xcdatamodeld */,
+				4A9D38711A86FADF005954D9 /* Person.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A5CA6241A8535F600127E36 /* Speed Selfie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5CA6471A8535F600127E36 /* Build configuration list for PBXNativeTarget "Speed Selfie" */;
+			buildPhases = (
+				4A5CA6211A8535F600127E36 /* Sources */,
+				4A5CA6221A8535F600127E36 /* Frameworks */,
+				4A5CA6231A8535F600127E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Speed Selfie";
+			productName = "Speed Selfie";
+			productReference = 4A5CA6251A8535F600127E36 /* Speed Selfie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A5CA63C1A8535F600127E36 /* Speed SelfieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5CA64A1A8535F600127E36 /* Build configuration list for PBXNativeTarget "Speed SelfieTests" */;
+			buildPhases = (
+				4A5CA6391A8535F600127E36 /* Sources */,
+				4A5CA63A1A8535F600127E36 /* Frameworks */,
+				4A5CA63B1A8535F600127E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A5CA63F1A8535F600127E36 /* PBXTargetDependency */,
+			);
+			name = "Speed SelfieTests";
+			productName = "Speed SelfieTests";
+			productReference = 4A5CA63D1A8535F600127E36 /* Speed SelfieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A5CA61D1A8535F600127E36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rohan Patel";
+				TargetAttributes = {
+					4A5CA6241A8535F600127E36 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2S3D8J8M3T;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					4A5CA63C1A8535F600127E36 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4A5CA6241A8535F600127E36;
+					};
+				};
+			};
+			buildConfigurationList = 4A5CA6201A8535F600127E36 /* Build configuration list for PBXProject "Speed Selfie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A5CA61C1A8535F600127E36;
+			productRefGroup = 4A5CA6261A8535F600127E36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A5CA6241A8535F600127E36 /* Speed Selfie */,
+				4A5CA63C1A8535F600127E36 /* Speed SelfieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A5CA6231A8535F600127E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2422051A87513600CDFFCD /* 4.jpg in Resources */,
+				4A9D386E1A86F4AE005954D9 /* r.jpg in Resources */,
+				4A2422101A87518B00CDFFCD /* 12.jpg in Resources */,
+				4A2422141A87523800CDFFCD /* 7.jpg in Resources */,
+				4A8C7DA31A8871F10093D5BC /* readme.txt in Resources */,
+				4A2422071A87513600CDFFCD /* 6.jpg in Resources */,
+				4A2422091A87513600CDFFCD /* 9.jpg in Resources */,
+				4A9D386C1A86F49A005954D9 /* default-person.jpg in Resources */,
+				4A1B34851A8597030094A7A1 /* delete.jpg in Resources */,
+				4A24220A1A87513600CDFFCD /* 10.jpg in Resources */,
+				4A2422031A87513600CDFFCD /* 2.jpg in Resources */,
+				4A24220E1A87513600CDFFCD /* 14.jpg in Resources */,
+				4A2422081A87513600CDFFCD /* 8.jpg in Resources */,
+				4A2422011A87513600CDFFCD /* 0.jpg in Resources */,
+				4A2422121A87519500CDFFCD /* 13.jpg in Resources */,
+				4A2422041A87513600CDFFCD /* 3.jpg in Resources */,
+				4A5CA6331A8535F600127E36 /* Main.storyboard in Resources */,
+				4A2422021A87513600CDFFCD /* 1.jpg in Resources */,
+				4A2422061A87513600CDFFCD /* 5.jpg in Resources */,
+				4A5CA6381A8535F600127E36 /* LaunchScreen.xib in Resources */,
+				4A5CA6351A8535F600127E36 /* Images.xcassets in Resources */,
+				4A24220B1A87513600CDFFCD /* 11.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5CA63B1A8535F600127E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A5CA6211A8535F600127E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9D38721A86FADF005954D9 /* Person.swift in Sources */,
+				4A5CA6301A8535F600127E36 /* ViewController.swift in Sources */,
+				4A8C7D9C1A8859860093D5BC /* RegistrationViewController.swift in Sources */,
+				4A8C7DA11A885D8E0093D5BC /* IvViewController.swift in Sources */,
+				4A1B348C1A85D3D40094A7A1 /* Singleton.swift in Sources */,
+				4A5CA62B1A8535F600127E36 /* AppDelegate.swift in Sources */,
+				4A5CA62E1A8535F600127E36 /* Speed_Selfie.xcdatamodeld in Sources */,
+				4A1033361A87250E00DE7427 /* UIImage+Filters.m in Sources */,
+				4A1033311A87226800DE7427 /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5CA6391A8535F600127E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5CA6441A8535F600127E36 /* Speed_SelfieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A5CA63F1A8535F600127E36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A5CA6241A8535F600127E36 /* Speed Selfie */;
+			targetProxy = 4A5CA63E1A8535F600127E36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A5CA6311A8535F600127E36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5CA6321A8535F600127E36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A5CA6361A8535F600127E36 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5CA6371A8535F600127E36 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A5CA6451A8535F600127E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A5CA6461A8535F600127E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A5CA6481A8535F600127E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Speed Selfie/Speed Selfie.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Speed Selfie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Speed Selfie/Speed Selfie-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A5CA6491A8535F600127E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Speed Selfie/Speed Selfie.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Speed Selfie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Speed Selfie/Speed Selfie-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		4A5CA64B1A8535F600127E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Speed SelfieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speed Selfie.app/Speed Selfie";
+			};
+			name = Debug;
+		};
+		4A5CA64C1A8535F600127E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Speed SelfieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speed Selfie.app/Speed Selfie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A5CA6201A8535F600127E36 /* Build configuration list for PBXProject "Speed Selfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5CA6451A8535F600127E36 /* Debug */,
+				4A5CA6461A8535F600127E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5CA6471A8535F600127E36 /* Build configuration list for PBXNativeTarget "Speed Selfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5CA6481A8535F600127E36 /* Debug */,
+				4A5CA6491A8535F600127E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5CA64A1A8535F600127E36 /* Build configuration list for PBXNativeTarget "Speed SelfieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5CA64B1A8535F600127E36 /* Debug */,
+				4A5CA64C1A8535F600127E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A5CA62C1A8535F600127E36 /* Speed_Selfie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A5CA62D1A8535F600127E36 /* Speed_Selfie.xcdatamodel */,
+			);
+			currentVersion = 4A5CA62D1A8535F600127E36 /* Speed_Selfie.xcdatamodel */;
+			path = Speed_Selfie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4A5CA61D1A8535F600127E36 /* Project object */;
+}
